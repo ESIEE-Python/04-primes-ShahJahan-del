@@ -4,8 +4,13 @@ from math import sqrt
 
 
 def isprime(p):
-
-    # votre code ici
+    n=isqrt(p)
+    v=True
+    for i in range(1,n):
+        if p%i==0:
+            v=False
+            break
+    return(v)
 
     pass
 
