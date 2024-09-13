@@ -6,7 +6,7 @@ from math import isqrt
 def isprime(p):
     n=isqrt(p)
     v=True
-    for i in range(1,n):
+    for i in range(2,n):
         if p%i==0:
             v=False
             break
