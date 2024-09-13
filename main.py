@@ -49,5 +49,5 @@ if __name__ == "__main__":
 
 $ git pull
 $ git add .
-$ git commit -m "un message explicatif"
+$ git commit -m "fonction isprime"
 $ git push
