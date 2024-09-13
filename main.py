@@ -46,3 +46,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+$ git pull
+$ git add .
+$ git commit -m "un message explicatif"
+$ git push
